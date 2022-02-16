@@ -1,0 +1,24 @@
+@import 'styles/variables.scss';
+
+.top{
+    z-index: $zindex-topnav;
+}
+
+.mg-botao{
+    margin-left: 4em;
+    display: block;
+}
+
+@media screen and (max-width: 375px){
+    .mg-botao{
+        margin-left: 4em;
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .mg-botao{
+        margin-left: 4em;
+        display: none !important;
+    }
+}
